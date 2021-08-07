@@ -18,15 +18,20 @@ class Employee:
 # Object
 obj1 = Employee("Witt", 500000, "Technical")
 obj1.printData()
-
-
 obj2 = Employee("Chawengwit", 100000, "Data Engineer")
 obj3 = Employee("Hog", 200000, "Product Analyst")
 
 # Showdata
-obj1.name = "Witt Krub"
+obj1.salary = 150000
 obj1.printData()
 obj2.printData()
 obj3.printData()
 
+# isinstance
+print("Obj1 is instance in Employee",isinstance(obj1,Employee))
 
+# List method & attribute
+print("Check Method & Attribute : ", dir(obj1))
+
+# Check class
+print("Check class Obj1 : ", obj1.__class__)

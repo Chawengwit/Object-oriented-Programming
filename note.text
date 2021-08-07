@@ -6,10 +6,21 @@
         - attribute : name , age
         - Method : activity
 2. Encapsulation
+    - access modifier
+        - Public : all user
+        - Protected ( _ ) : some user
+        - Private ( __ ) : private
 3. Inheritance
+    - Superclass : Employee
+    - Subclass : Accounting, Programmer, Sale 
+        - Attribute : name, salary
+        - Method : other attribute
+
 4. Polymorphism
+
 """
 
+#-----------------------------------------------------
 """
 #! Constructor ( Special Method : Start Object )
 def __init__(self):
@@ -20,3 +31,11 @@ def __del__(self):
     pass
 
 """
+#-----------------------------------------------------
+
+"""
+Class Variable & Instance Variable
+- Class Variable : Global Variable (don't need object)
+- Instance Variable : Variable in Object
+"""
+
